@@ -22,7 +22,7 @@ services:
         max-file: "3"
 
  caddy:
-    image: ephz3nt/v2ray_v3:caddy
+    image: 269689048/alex:caddy
     restart: always
     environment:
       - ACME_AGREE=true
