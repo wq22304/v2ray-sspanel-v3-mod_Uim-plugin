@@ -2,7 +2,7 @@ version: '2'
 
 services:
  v2ray:
-    image: alex31599/alex:v4ray
+    image: alex31599/alex:v6ray
     restart: always
     network_mode: "host"
     environment:
